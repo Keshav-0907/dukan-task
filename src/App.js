@@ -1,5 +1,6 @@
 import './App.css';
 import Dashboard from './components/Dashboard';
+import Dashboard2 from './components/Dashboard2';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 
@@ -12,7 +13,7 @@ function App() {
 
       <div className='w-full'>
         <Navbar/>
-        <Dashboard/>
+        <Dashboard2/>
       </div>
     </div>
   );
