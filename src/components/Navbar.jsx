@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='border-2 border=[#D9D9D9] w-[1216px] h-16 flex gap-4 px-[32px] py-[12px]'>
-            <div className='w-1/3 flex items-center'>
+        <div className='border-2 border=[#D9D9D9] w-full h-16 flex gap-4 px-[32px] py-[12px]'>
+            <div className='w-1/3 flex items-center lg:visible hidden'>
                 <div className='text-[20px]'>
                     Payouts
                 </div>

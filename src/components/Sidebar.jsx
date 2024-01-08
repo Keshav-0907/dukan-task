@@ -3,11 +3,11 @@ import Logo from '../assets/logo.png'
 
 const Sidebar = () => {
   return (
-    <div className=' h-[963px] w-[224px] bg-[#1E2640] text-white px-[10px] py-[16px] flex flex-col justify-between'>
+    <div className=' h-full w-[224px] bg-[#1E2640] text-white px-[10px] py-[16px] flex flex-col justify-between'>
 
       {/* Upar wala tag */}
 
-      <div className=' '>
+      <div className=''>
         <div className='flex gap-3 justify-between items-center px-[8.5px]'>
           <div>
             <img src={Logo} style={{ width: '39px', height: '39px', borderRadius: '4px' }} alt='err' />

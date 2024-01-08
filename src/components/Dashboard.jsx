@@ -1,10 +1,11 @@
 import React from 'react'
+import Table from './Table'
 
 const Dashboard = () => {
 
 
     return (
-        <div className='h-fit w-[1216px] p-[32px] bg-[#FAFAFA]'>
+        <div className='h-fit w-full p-[32px] bg-[#FAFAFA]'>
             <div className='flex justify-between'>
                 <div className='text-xl'>
                     Overview
@@ -25,8 +26,8 @@ const Dashboard = () => {
 
             </div>
 
-            <div className='mt-[24px] flex gap-5 '>
-                <div className='bg-[#146EB4] text-white w-1/3  rounded-[8px]'>
+            <div className='mt-[24px] flex gap-5 lg:flex-row flex-col'>
+                <div className='bg-[#146EB4] text-white lg:w-1/3 w-full rounded-[8px]'>
                     <div className='flex items-center gap-2 px-[20px] pt-[20px] pb-[16px]'>
                         <span> Next Payout </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -66,7 +67,7 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className=' w-1/3 h-fit p-[20px] rounded-[8px] shadow-custom bg-white'>
+                <div className='h-fit p-[20px] rounded-[8px] lg:w-1/3 w-full shadow-custom bg-white'>
                     <div className='flex items-center gap-[16px]'>
                         <span className='text-[#4D4D4D]'>Amount Pending </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
@@ -89,7 +90,7 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className=' w-1/3 h-fit p-[20px] rounded-[8px] shadow-custom bg-white'>
+                <div className=' h-fit p-[20px] rounded-[8px] lg:w-1/3 w-full shadow-custom bg-white'>
                     <div className='flex items-center gap-[16px]'>
                         <span className='text-[#4D4D4D]'>Amount Processed </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
@@ -165,151 +166,8 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-between p-[10px] bg-[#F2F2F2] mt-[12px] rounded-[4px]'>
-                    <div className='text-[#4D4D4D]'>
-                        Order ID
-                    </div>
-                    <div className='text-[#4D4D4D]'>
-                        Status
-                    </div>
-                    <div className='text-[#4D4D4D]'>
-                        Transaction ID
-                    </div>
-                    <div className='text-[#4D4D4D]'>
-                        Refund date
-                    </div>
-                    <div className='text-[#4D4D4D]'>
-                        Order amount
-                    </div>
-                </div>
-
-                <div className='p-[10px]'>
-
-                    <div className='flex justify-between py-[14px] px-[12px]'>
-                        <div className='text-[#146EB4]'>
-                            #281209
-                        </div>
-                        <div className='flex items-center gap-[6px]'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-                                <circle cx="5.33594" cy="5" r="5" fill="#17B31B" />
-                            </svg>
-                            <span > Successful </span>
-                        </div>
-                        <div>
-                            131634495747
-                        </div>
-                        <div>
-                            Today, 08:45 PM
-                        </div>
-                        <div>
-                            ₹1,125.00
-                        </div>
-                    </div>
-
-                    <div className='flex justify-between py-[14px] px-[12px]'>
-                        <div className='text-[#146EB4]'>
-                            #281209
-                        </div>
-                        <div className='flex items-center gap-[6px]'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-  <circle cx="5.33594" cy="5" r="5" fill="#999999"/>
-</svg>
-                            <span> Processing </span>
-                        </div>
-                        <div>
-                            131634495747
-                        </div>
-                        <div>
-                            Today, 08:45 PM
-                        </div>
-                        <div>
-                            ₹1,125.00
-                        </div>
-                    </div>
-
-                    <div className='flex justify-between py-[14px] px-[12px]'>
-                        <div className='text-[#146EB4]'>
-                            #281209
-                        </div>
-                        <div className='flex items-center gap-[6px]'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-                                <circle cx="5.33594" cy="5" r="5" fill="#17B31B" />
-                            </svg>
-                            <span> Successful </span>
-                        </div>
-                        <div>
-                            131634495747
-                        </div>
-                        <div>
-                            Today, 08:45 PM
-                        </div>
-                        <div>
-                            ₹1,125.00
-                        </div>
-                    </div>
-
-                    <div className='flex justify-between py-[14px] px-[12px]'>
-                        <div className='text-[#146EB4]'>
-                            #281209
-                        </div>
-                        <div className='flex items-center gap-[6px]'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-                                <circle cx="5.33594" cy="5" r="5" fill="#17B31B" />
-                            </svg>
-                            <span> Successful </span>
-                        </div>
-                        <div>
-                            131634495747
-                        </div>
-                        <div>
-                            Today, 08:45 PM
-                        </div>
-                        <div>
-                            ₹1,125.00
-                        </div>
-                    </div>
-
-                    <div className='flex justify-between py-[14px] px-[12px]'>
-                        <div className='text-[#146EB4]'>
-                            #281209
-                        </div>
-                        <div className='flex items-center gap-[6px]'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-                                <circle cx="5.33594" cy="5" r="5" fill="#17B31B" />
-                            </svg>
-                            <span> Successful </span>
-                        </div>
-                        <div>
-                            131634495747
-                        </div>
-                        <div>
-                            Today, 08:45 PM
-                        </div>
-                        <div>
-                            ₹1,125.00
-                        </div>
-                    </div>
-
-                    <div className='flex justify-between py-[14px] px-[12px]'>
-                        <div className='text-[#146EB4]'>
-                            #281209
-                        </div>
-                        <div className='flex items-center gap-[6px]'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-                                <circle cx="5.33594" cy="5" r="5" fill="#17B31B" />
-                            </svg>
-                            <span> Successful </span>
-                        </div>
-                        <div>
-                            131634495747
-                        </div>
-                        <div>
-                            Today, 08:45 PM
-                        </div>
-                        <div>
-                            ₹1,125.00
-                        </div>
-                    </div>
+                <div>
+                    <Table/>
                 </div>
             </div>
         </div>

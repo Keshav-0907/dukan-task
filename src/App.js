@@ -5,12 +5,12 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row h-fit w-screen'>
       <div>
         <Sidebar/>
       </div>
 
-      <div>
+      <div className='w-full'>
         <Navbar/>
         <Dashboard/>
       </div>
