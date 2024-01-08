@@ -4,8 +4,9 @@ const Table2 = () => {
 
     return (
         <div className=''>
-            <div className='overflow-y-auto' >
-                <div className=' overflow-y-scroll flex justify-between py-[14px] px-[12px] bg-[#F2F2F2] mt-[12px] w-full rounded-[4px] '>
+            <div className='overflow-y-auto w-full flex flex-col justify-center' >
+
+                <div className='flex justify-between py-[14px] px-[12px] bg-[#F2F2F2] mt-[12px] w-full rounded-[4px] '>
                     <div className='text-[#4D4D4D] w-1/4'>
                         Order ID
                     </div>
@@ -37,8 +38,7 @@ const Table2 = () => {
                         </svg>
                     </div>
                 </div>
-
-                <div className='p-[10px] flex flex-col'>
+                <div className='p-[10px] flex flex-col '>
                     <div>
                         <div className='flex justify-between w-full py-[14px] px-[12px]'>
                             <div className='text-[#146EB4] w-1/4'>
@@ -260,8 +260,6 @@ const Table2 = () => {
 
                     </div>
                 </div>
-
-
                 <div className='w-full flex justify-center items-center text-[#4D4D4D] mt-[24px]'>
                     <div className='flex cursor-pointer'>
                         <div className='border-2 border-[#D9D9D9] pt-[6px] pr-[12px] pb-[6px] pl-[6px] flex items-center rounded-[4px]'>
@@ -321,17 +319,16 @@ const Table2 = () => {
                         </div>
 
                         <div className='border-2 border-[#D9D9D9] pt-[6px] pr-[6px] pb-[6px] pl-[12px] gap-1.5 flex items-center rounded-[4px]'>
-                        <div className='text-[#4D4D4D] pl-[6px]'>
+                            <div className='text-[#4D4D4D] pl-[6px]'>
                                 Next
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.21967 3.96967C6.51256 3.67678 6.98744 3.67678 7.28033 3.96967L11.7803 8.46967C11.921 8.61032 12 8.80109 12 9C12 9.19891 11.921 9.38968 11.7803 9.53033L7.28033 14.0303C6.98744 14.3232 6.51256 14.3232 6.21967 14.0303C5.92678 13.7374 5.92678 13.2626 6.21967 12.9697L10.1893 9L6.21967 5.03033C5.92678 4.73744 5.92678 4.26256 6.21967 3.96967Z" fill="#4D4D4D" />
                             </svg>
-                           
+
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )
