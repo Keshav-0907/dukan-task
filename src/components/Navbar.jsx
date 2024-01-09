@@ -5,10 +5,10 @@ const Navbar = () => {
         <div className='border-2 border=[#D9D9D9] w-full h-16 flex gap-4 md:px-[32px] px-[10px] py-[12px]'>
             <div className='w-1/3 items-center hidden lg:block'>
                 <div className='flex'>
-                    <div className='text-[20px]'>
+                    <div className='text-[20px] cursor-pointer'>
                         Payments
                     </div>
-                    <div className='flex pl-4 items-center cursor-help'>
+                    <div className='flex pl-4 items-center cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                             <g clip-path="url(#clip0_86829_221178)">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.78076 10.1799C7.78076 10.6093 7.43261 10.9575 7.00315 10.9575C6.57369 10.9575 6.22554 10.6093 6.22554 10.1799C6.22554 9.75039 6.57369 9.40225 7.00315 9.40225C7.43261 9.40225 7.78076 9.75039 7.78076 10.1799Z" fill="#4D4D4D" />
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <input class="grow outline-none bg-transparent leading-[22px] placeholder:text-[#808080]" placeholder="Search features, tutorials, etc." />
             </div>
 
-            <div className='w-1/3 flex items-center gap-[12px] justify-end'>
+            <div className='w-1/3 flex items-center gap-[12px] justify-end '>
                 <div className='bg-[#E6E6E6] p-[10px] rounded-full cursor-pointer'>
 
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

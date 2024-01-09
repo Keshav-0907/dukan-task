@@ -4,9 +4,9 @@ const Table2 = () => {
 
     return (
         <div className=''>
-            <div className='overflow-y-auto w-full flex flex-col justify-center' >
+            <div className='overflow-y-auto w-full flex flex-col justify-center ' >
 
-                <div className='flex justify-between py-[14px] px-[12px] bg-[#F2F2F2] mt-[12px] w-full rounded-[4px] '>
+                <div className='flex justify-between py-[14px] px-[12px] bg-[#F2F2F2] min-w-[700px] mt-[12px] w-full rounded-[4px] '>
                     <div className='text-[#4D4D4D] w-1/4'>
                         Order ID
                     </div>
@@ -38,7 +38,7 @@ const Table2 = () => {
                         </svg>
                     </div>
                 </div>
-                <div className='p-[10px] flex flex-col '>
+                <div className='p-[10px] flex flex-col min-w-[700px]'>
                     <div>
                         <div className='flex justify-between w-full py-[14px] px-[12px]'>
                             <div className='text-[#146EB4] w-1/4'>
